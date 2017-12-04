@@ -10,6 +10,10 @@ export class Ng2LocationConfig extends BrowserLocationConfig {
   }
 
   baseHref(href?: string): string {
+
+  
     return this._locationStrategy.getBaseHref();
+
+
   }
 }
